@@ -1,0 +1,175 @@
+<html>
+  <head>
+    <title>HOME</title>
+
+    <style>
+
+      #date
+      {
+        float: left;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        border:3px solid #000000;
+        padding:10px;
+        width:150px;
+        margin-left:1px;
+        background-color: peachpuff;
+      }
+      #time
+      {
+        float: right;
+        margin-right:1px;
+        font-size:20px;
+        color:rgb(0, 0, 0);
+        border:3px solid #000000;
+        padding:10px;
+        width:100px;
+        background-color: papayawhip;
+      }
+
+    </style>
+
+      <link rel="stylesheet" type="text/css" href="clock_style.css">
+      <script type="text/javascript">
+        window.onload = setInterval(clock,1000);
+    
+        function clock()
+        {
+          var d = new Date();
+          
+          var date = d.getDate();
+          
+          var month = d.getMonth();
+          var montharr =["Jan","Feb","Mar","April","May","June","July","Aug","Sep","Oct","Nov","Dec"];
+          month=montharr[month];
+          
+          var year = d.getFullYear();
+          
+          var day = d.getDay();
+          var dayarr =["Sun","Mon","Tues","Wed","Thurs","Fri","Sat"];
+          day=dayarr[day];
+          
+          var hour =d.getHours();
+          var min = d.getMinutes();
+          var sec = d.getSeconds();
+        
+          document.getElementById("date").innerHTML=day+" "+date+" "+month+" "+year;
+          document.getElementById("time").innerHTML=hour+":"+min+":"+sec;
+        }
+      </script>
+    
+    <body>
+       <p id="date"></p>
+       <p id="time"></p>
+    </body>
+
+    <br>
+
+  </head>
+
+  <center><h1><b>WELCOME TO MY PAGE</b></h1></center>
+
+  <br>
+        
+  <link rel="stylesheet" href="css/style.css">
+
+  <center>
+    <br>
+    <a href="index.html">HOME</a>
+    <a href="biodata.html">BIODATA</a>
+    <a href="education.html">EDUCATION</a>
+    <a href="gallery.html">GALLERY</a>
+    <a href="skill.html">SKILLS</a>
+    <a href="contact.html">CONTACT</a>
+    <br>
+  </center>
+
+  <br>
+
+    <audio controls>  
+      <source src="audios/TV (Billie Eillish).mp3" type="audio/ogg">
+      <source src="audios/TV (Billie Eillish).mp3" type="audio/mpeg">
+    </audio>
+
+  <br>
+    
+      <style>
+        body {
+        background-image: url("images/wallpaper.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+        background-size: cover;
+        }
+      </style>
+
+  <style>
+      img {
+        border: 1px solid papayawhip; /* Coloured border */
+        border-radius: 4px;  /* Rounded border */
+        padding: 5px; /* Some padding */
+        width: 150px; /* Set a small width */
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      /* Add a hover effect ( Coloured shadow) */
+      img:hover {
+        box-shadow: 0 0 2px 1px rgba(1, 1, 1, 0);
+      }
+    </style>
+
+    <body>
+        <center>
+        <a target="_blank" href="images/images2.jpg">
+        <img src="images/images2.jpg" alt="image">
+        </a>
+        </center>
+    </body>
+
+    <br>
+
+    <style>
+      table, th, td
+      {
+          border: 3px solid rgb(127, 129, 105);
+          border-style: double;
+          background-color: blanchedalmond;
+      }
+      td
+      {
+          text-align: left;
+      }
+      th, td
+      {
+          padding: 20px;
+      }
+  </style>
+
+  <body>
+
+    <table align="center">
+      <tr>
+          <th>NAME</th>
+          <td>AHMAD FIKRI HILMI BIN ROSLI</td>
+      </tr>
+      <tr>
+          <th>STUDENT ID</th>
+          <td>2020855498</td>
+      </tr>
+      <tr>
+          <th>CLASS</th>
+          <td>N5IM1105A</td>
+      </tr>
+      <tr>
+          <th>PROGRAMME CODE</th>
+          <td>INTRODUCTION TO WEB CONTENT MANAGEMENT AND DESIGN (IMD311)</td>
+      </tr>
+      <tr>
+          <th>LECTURER</th>
+          <td>MADAM SERI INTAN IDAYU BINTI SHAHRUL ASARI</td>
+      </tr>
+    </table>
+
+  </body>
+
+</html>

@@ -1,0 +1,124 @@
+<html>
+    <head>
+
+      <style>
+
+        #date
+        {
+          float: right;
+          color: rgb(0, 0, 0);
+          font-size: 20px;
+          border:3px solid #000000;
+          padding:10px;
+          width:150px;
+          margin-left:1px;
+          background-color: peachpuff;
+        }
+        #time
+        {
+          float: right;
+          margin-right:1px;
+          font-size:20px;
+          color:rgb(0, 0, 0);
+          border:3px solid #000000;
+          padding:10px;
+          width:100px;
+          background-color: papayawhip;
+        }
+  
+      </style>
+  
+        <link rel="stylesheet" type="text/css" href="clock_style.css">
+        <script type="text/javascript">
+          window.onload = setInterval(clock,1000);
+      
+          function clock()
+          {
+            var d = new Date();
+            
+            var date = d.getDate();
+            
+            var month = d.getMonth();
+            var montharr =["Jan","Feb","Mar","April","May","June","July","Aug","Sep","Oct","Nov","Dec"];
+            month=montharr[month];
+            
+            var year = d.getFullYear();
+            
+            var day = d.getDay();
+            var dayarr =["Sun","Mon","Tues","Wed","Thurs","Fri","Sat"];
+            day=dayarr[day];
+            
+            var hour =d.getHours();
+            var min = d.getMinutes();
+            var sec = d.getSeconds();
+          
+            document.getElementById("date").innerHTML=day+" "+date+" "+month+" "+year;
+            document.getElementById("time").innerHTML=hour+":"+min+":"+sec;
+          }
+        </script>
+      
+      <body>
+         <p id="date"></p>
+         <p id="time"></p>
+      </body>
+      
+      <a href="index.html">HOME</a>
+      <a href="biodata.html">BIODATA</a>
+      <a href="education.html">EDUCATION</a>
+      <a href="gallery.html">GALLERY</a>
+      <a href="skill.html">SKILLS</a>
+      <a href="contact.html">CONTACT</a>
+
+        <title>SKILLS</title>
+        
+        <link rel="stylesheet" href="css/style.css">
+        
+        <h1><center>SKILLS</center></h1>
+
+    </head>
+
+    <style>     
+      body {
+      background-image: url("images/wallpaper.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;  
+      background-size: cover;
+      }
+      </style>
+
+      <link rel="stylesheet" type="text/css" href="css/style2.css">
+
+    <body>
+      <div class="container">
+        <div class="skills" >
+          <span class="Name">ADOBE ILLUSTRATOR</span>
+          <div class="percent">
+            <div class="progress" style="width: 90%;"></div>
+          </div>
+          <span class="Value">90%</span>
+        </div>
+        <div class="skills" >
+          <span class="Name">ADOBE PHOTOSHOP</span>
+          <div class="percent">
+            <div class="progress" style="width: 90%;"></div>
+          </div>
+          <span class="Value">90%</span>
+        </div>
+        <div class="skills" >
+          <span class="Name">ADOBE PREMIERE PRO</span>
+          <div class="percent">
+            <div class="progress" style="width: 80%;"></div>
+          </div>
+          <span class="Value">80%</span>
+        </div>
+        <div class="skills" >
+          <span class="Name">MICROSOFT EXCEL</span>
+          <div class="percent">
+            <div class="progress" style="width: 80%;"></div>
+          </div>
+          <span class="Value">80%</span>
+        </div>
+      </div>
+    </body>
+
+</html>

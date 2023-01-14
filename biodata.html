@@ -1,0 +1,230 @@
+<html>
+    <head>
+        
+        <a href="index.html">HOME</a>
+        <a href="biodata.html">BIODATA</a>
+        <a href="education.html">EDUCATION</a>
+        <a href="gallery.html">GALLERY</a>
+        <a href="skill.html">SKILLS</a>
+        <a href="contact.html">CONTACT</a>
+
+        <link rel="stylesheet" href="css/style.css">
+    
+    </head>
+
+    <style>
+
+        #date
+        {
+          float: right;
+          color: rgb(0, 0, 0);
+          font-size: 20px;
+          border:3px solid #000000;
+          padding:10px;
+          width:150px;
+          margin-left:1px;
+          background-color: peachpuff;
+        }
+        #time
+        {
+          float: right;
+          margin-right:1px;
+          font-size:20px;
+          color:rgb(0, 0, 0);
+          border:3px solid #000000;
+          padding:10px;
+          width:100px;
+          background-color: papayawhip;
+        }
+  
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="clock_style.css">
+    <script type="text/javascript">
+    window.onload = setInterval(clock,1000);
+
+    function clock()
+    {
+        var d = new Date();
+        
+        var date = d.getDate();
+        
+        var month = d.getMonth();
+        var montharr =["Jan","Feb","Mar","April","May","June","July","Aug","Sep","Oct","Nov","Dec"];
+        month=montharr[month];
+        
+        var year = d.getFullYear();
+        
+        var day = d.getDay();
+        var dayarr =["Sun","Mon","Tues","Wed","Thurs","Fri","Sat"];
+        day=dayarr[day];
+        
+        var hour =d.getHours();
+        var min = d.getMinutes();
+        var sec = d.getSeconds();
+    
+        document.getElementById("date").innerHTML=day+" "+date+" "+month+" "+year;
+        document.getElementById("time").innerHTML=hour+":"+min+":"+sec;
+    }
+    </script>
+
+    <body>
+        <p id="date"></p>
+        <p id="time"></p>
+    </body>
+
+    <br>
+
+    <style>     
+        body {
+        background-image: url("images/wallpaper.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+        background-size: cover;
+        }
+
+    </style>
+
+    <br>
+
+    <audio controls>
+        <source src="audios/Kill Bill (SZA).mp3" type="audio/ogg">
+        <source src="audios/Kill Bill (SZA).mp3" type="audio/mpeg">
+    </audio>
+
+    <br>
+
+    <style>
+        table, th, td
+        {
+            border: 1px solid black;
+            border-style: dashed;
+        }
+        th
+        {
+            text-align: center;
+            background-color: antiquewhite;
+        }
+        td
+        {
+            text-align: left;
+            background-color: antiquewhite;
+        }
+        th, td
+        {
+            padding: 10px;
+        }
+        .heading
+        {
+            background-color: burlywood;
+        }
+    </style>
+
+    <body>
+        <table style="width: 70%" align="center">
+
+        <tr>
+            <th colspan="3" style="font-family:'Courier New', Courier, monospace" class="heading">
+            <big><b>BIODATA</b></big>
+            </th>
+        </tr>
+
+
+        <tr>
+            <th rowspan="20"><img src="images/fikrihilmi.jpg" alt="fikri" height="300px"></th>
+            <td><b>NAME</b></td>
+            <td>Ahmad Fikri Hilmi Bin Rosli</td>
+        </tr>
+
+        <tr>
+            <td><b>STUDENT ID</b></td>
+            <td>2020855498</td>
+        </tr>
+
+        <tr>
+            <td><b>CLASS</b></td>
+            <td>N5IM1105A</td>
+        </tr>
+        
+        <tr>
+            <td><b>EMAIL ADDRESS</b></td>
+            <td>fikrihilmi2002@gmail.com</td>
+        </tr>
+        
+        <tr>
+            <td><b>NICKNAME</b></td>
+            <td>Fikri</td>
+        </tr>
+
+        <tr>
+            <td><b>DATE OF BIRTH</b></td>
+            <td>7 June 2002</td>
+        </tr>
+
+        <tr>
+            <td><b>PLACE OF BIRTH</b></td>
+            <td>Hospital Kota Bharu, Kelantan</td>
+        </tr>
+
+        <tr>
+            <td><b>HOME ADDRESS</b></td>
+            <td>Sandalwood Court, Bandar Tasik Puteri,
+                <p>
+                Rawang, Selangor</td>
+        </tr>
+
+        <tr>
+            <td><b>HEIGHT</b></td>
+            <td>170 cm</td>
+        </tr>
+
+        <tr>
+            <td><b>WEIGHT</b></td>
+            <td>50 cm</td>
+        </tr>
+
+        <tr>
+            <td><b>NATIONALITY</b></td>
+            <td>Malaysian</td>
+        </tr>
+
+        <tr>
+            <td><b>RACE</b></td>
+            <td>Malay</td>
+        </tr>
+
+        <tr>
+            <td><b>RELIGION</b></td>
+            <td>Islam</td>
+        </tr>
+
+        <tr>
+            <td><b>HOBBY</b></td>
+            <td>Watching Movies</td>
+        </tr>
+
+        <tr>
+            <td><b>AMBITION</b></td>
+            <td>Lecturer</td>
+        </tr>
+
+        <tr>
+            <td><b>FAVOURITE FOOD</b></td>
+            <td>Char Kuey Teow</td>
+        </tr>
+
+        <tr>
+            <td><b>FAVOURITE DRINK</b></td>
+            <td>Ice Lemon Tea</td>
+        </tr>
+
+        <tr>
+            <td><b>FAVOURITE MOVIE</b></td>
+            <td>Doctor Strange: Multiverse of Madness</td>
+        </tr>
+
+        </table>
+
+    </body>
+
+</html>

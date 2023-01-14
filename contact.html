@@ -1,0 +1,177 @@
+<html>
+    <head>
+
+        <title>CONTACT</title>
+
+        <a href="index.html">HOME</a>
+        <a href="biodata.html">BIODATA</a>
+        <a href="education.html">EDUCATION</a>
+        <a href="gallery.html">GALLERY</a>
+        <a href="skill.html">SKILLS</a>
+        <a href="contact.html">CONTACT</a>
+
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+    </head>
+
+    <style>
+
+        #date
+        {
+          float: right;
+          color: rgb(0, 0, 0);
+          font-size: 20px;
+          border:3px solid #000000;
+          padding:10px;
+          width:150px;
+          margin-left:1px;
+          background-color: peachpuff;
+        }
+        #time
+        {
+          float: right;
+          margin-right:1px;
+          font-size:20px;
+          color:rgb(0, 0, 0);
+          border:3px solid #000000;
+          padding:10px;
+          width:100px;
+          background-color: papayawhip;
+        }
+  
+      </style>
+  
+        <link rel="stylesheet" type="text/css" href="clock_style.css">
+        <script type="text/javascript">
+          window.onload = setInterval(clock,1000);
+      
+          function clock()
+          {
+            var d = new Date();
+            
+            var date = d.getDate();
+            
+            var month = d.getMonth();
+            var montharr =["Jan","Feb","Mar","April","May","June","July","Aug","Sep","Oct","Nov","Dec"];
+            month=montharr[month];
+            
+            var year = d.getFullYear();
+            
+            var day = d.getDay();
+            var dayarr =["Sun","Mon","Tues","Wed","Thurs","Fri","Sat"];
+            day=dayarr[day];
+            
+            var hour =d.getHours();
+            var min = d.getMinutes();
+            var sec = d.getSeconds();
+          
+            document.getElementById("date").innerHTML=day+" "+date+" "+month+" "+year;
+            document.getElementById("time").innerHTML=hour+":"+min+":"+sec;
+          }
+        </script>
+      
+      <body>
+         <p id="date"></p>
+         <p id="time"></p>
+      </body>
+
+      <style>
+        body {
+        background-image: url("images/wallpaper.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+        background-size: cover;
+        }
+        </style>
+
+        <h1><center>CONTACT DETAILS</center></h1>
+
+    
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    img:hover {
+    animation: shake 0.2s;
+    animation-iteration-count: infinite;
+    }
+
+    @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+    }
+    </style>
+    </head>
+
+    <style>
+        table, th, td
+        {
+            border: 2px solid rgb(48, 57, 141);
+            border-style: double;
+        }
+        td
+        {
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace
+        
+        }
+        th, td
+        {
+            padding: 10px;
+            background-color:rgb(246, 240, 215)
+        }
+
+    </style>
+
+    <table style="width: 80%;" align="center">
+
+        <ol>
+        
+        <!--Using image as hyperlink for global link-->
+        <tr style= "font-family: 'Courier New', Courier, monospace; color:rgb(123, 97, 145)">
+            <th>PLATFORMS</th>
+            <th>DETAILS</th>
+            <th>ICONS</th>
+        </tr>
+
+        <tr style="color:rgb(136, 29, 100)">
+            <td><li style="list-style-image: url(images/custommarker.png); list-style-position: inside">PHONE NUMBER</li></td>
+            <td><a href="tel:+60104556040">+60104556040</a></td>
+            <td><a href="tel:+60104556040"><img src="images/contactlogo.png" width="30px"></a></td>
+        </tr>
+
+        <tr style="color:rgb(158, 159, 117)">
+            <td><li style="list-style-image: url(images/custommarker2.png); list-style-position: inside">EMAIL ADDRESS</li></td>
+            <td><a href="mailto:fikrihilmi2002@gmail.com/">fikrihilmi2002@gmail.com</a></td>
+            <td><a href="mailto:fikrihilmi2002@gmail.com/"><img src="images/logogmail.png" width="30px"></a></td>
+        </tr>
+
+        <tr style="color:rgb(132, 24, 241)">
+            <td><li style="list-style-image: url(images/custommarker.png); list-style-position: inside">FACEBOOK</li></td>
+            <td><a href="https://www.facebook.com/ahmad.fikrihilmi">Fikri Hilmi</a></td>
+            <td><a href="https://www.facebook.com/ahmad.fikrihilmi"><img src="images/facebooklogo.png" width="30px"></a</td>
+        </tr>
+
+        <tr style="color:rgb(179, 26, 49)">
+            <td><li style="list-style-image: url(images/custommarker2.png); list-style-position: inside">INSTAGRAM</li></td>
+            <td><a href="https://www.instagram.com/fikriihilmi/">@fikriihilmi</a></td>
+            <td><a href="https://www.instagram.com/fikriihilmi/"><img src="images/instagramlogo.png" width="30px"></a</td>
+        </tr>
+
+        </ol>
+
+    </table>
+    </ol>
+
+</html>

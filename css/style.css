@@ -1,0 +1,50 @@
+body
+
+    a:link
+    {
+        color: white;
+        background-color: burlywood;
+        text-decoration: none;
+        padding: 15px;
+        display: inline-block;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    a:visited
+    {
+        color: white;
+        background-color: tan;
+        text-decoration: none;
+        padding: 15px;
+        display: inline-block;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    a:hover
+    {
+        color: black;
+        background-color: bisque;
+        text-decoration: underline;
+        padding: 15px;
+        display: inline-block;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    a:active
+    {
+        color: white;
+        background-color: palegoldenrod;
+        text-decoration: none;
+        padding: 15px;
+        display: inline-block;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    
+    body 
+    {
+        background-image: url("image/background1.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+        background-size: cover;
+    }
+
+
+

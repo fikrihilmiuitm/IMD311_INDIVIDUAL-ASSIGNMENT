@@ -1,0 +1,231 @@
+<html>
+    <head>
+
+        <link rel="stylesheet" href="css/style.css">
+
+        <a href="index.html">HOME</a>
+        <a href="biodata.html">BIODATA</a>
+        <a href="education.html">EDUCATION</a>
+        <a href="gallery.html">GALLERY</a>
+        <a href="skill.html">SKILLS</a>
+        <a href="contact.html">CONTACT</a>
+        
+        <title></title>
+
+    </head>
+
+    <style>
+
+        #date
+        {
+          float: right;
+          color: rgb(0, 0, 0);
+          font-size: 20px;
+          border:3px solid #000000;
+          padding:10px;
+          width:150px;
+          margin-left:1px;
+          background-color: peachpuff;
+        }
+        #time
+        {
+          float: right;
+          margin-right:1px;
+          font-size:20px;
+          color:rgb(0, 0, 0);
+          border:3px solid #000000;
+          padding:10px;
+          width:100px;
+          background-color: papayawhip;
+        }
+  
+    </style>
+  
+        <link rel="stylesheet" type="text/css" href="clock_style.css">
+        <script type="text/javascript">
+          window.onload = setInterval(clock,1000);
+      
+          function clock()
+          {
+            var d = new Date();
+            
+            var date = d.getDate();
+            
+            var month = d.getMonth();
+            var montharr =["Jan","Feb","Mar","April","May","June","July","Aug","Sep","Oct","Nov","Dec"];
+            month=montharr[month];
+            
+            var year = d.getFullYear();
+            
+            var day = d.getDay();
+            var dayarr =["Sun","Mon","Tues","Wed","Thurs","Fri","Sat"];
+            day=dayarr[day];
+            
+            var hour =d.getHours();
+            var min = d.getMinutes();
+            var sec = d.getSeconds();
+          
+            document.getElementById("date").innerHTML=day+" "+date+" "+month+" "+year;
+            document.getElementById("time").innerHTML=hour+":"+min+":"+sec;
+          }
+        </script>
+      
+      <body>
+         <p id="date"></p>
+         <p id="time"></p>
+      </body>
+
+    
+    <h1><center>GALLERY</center></h1>
+
+    <style>     
+            body {
+            background-image: url("images/wallpaper.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;  
+            background-size: cover;
+            }
+            table, td
+        {
+            border: 2px double rgb(148, 142, 107);
+            border-style: double;
+        }
+        td
+        {
+            text-align: center;
+        }
+        td
+        {
+            padding: 10px;
+        }
+        .center
+        {
+            background-color: white;
+            margin-left: auto;
+            margin-left: auto;
+        }
+    </style>
+    
+    <p>
+        <table class="center">
+            
+            <tr>
+                <th>
+                    <a href="images/images1.jpg" target="_blank"><img src="images/images1.jpg" width="200px"></a>
+                </th>
+                <th>
+                    <a href="images/images2.jpg" target="_blank"><img src="images/images2.jpg" width="200px"></a>
+                </th>
+                <th>
+                    <a href="images/images3.jpg" target="_blank"><img src="images/images3.jpg" width="200px"></a>
+                </th>
+                <th>
+                    <a href="images/images4.jpg" target="_blank"><img src="images/images4.jpg" width="200px"></a>
+                </th>
+                <th>
+                    <a href="images/images5.jpg" target="_blank"><img src="images/images5.jpg" width="200px"></a>
+                </th>
+            </tr>
+
+            <tr>
+                <th>
+                    <a href="images/images6.jpg" target="_blank"><img src="images/images6.jpg" width="200px"></a>
+                </th>
+                <th>
+                    <a href="images/images7.jpg" target="_blank"><img src="images/images7.jpg" width="200px"></a>
+                </th>
+                <th>
+                    <a href="images/images8.jpg" target="_blank"><img src="images/images8.jpg" width="200px"></a>
+                </th>
+                <th>
+                    <a href="images/images9.jpg" target="_blank"><img src="images/images9.jpg" width="200px"></a>
+                </th>
+                <th>
+                    <a href="images/images10.jpg" target="_blank"><img src="images/images10.jpg" width="200px"></a>
+                </th>
+            </tr>
+
+            <tr>
+                <th>
+                    <a href="images/images11.jpg" target="_blank"><img src="images/images11.jpg" width="200px"></a>
+                </th>
+                <th>
+                    <a href="images/images12.jpg" target="_blank"><img src="images/images12.jpg" width="200px"></a>
+                </th>
+                <th>
+                    <a href="images/images13.jpg" target="_blank"><img src="images/images13.jpg" width="200px"></a>
+                </th>
+                <th>
+                    <a href="images/images14.jpg" target="_blank"><img src="images/images14.jpg" width="200px"></a>
+                </th>
+                <th>
+                    <a href="images/images15.jpg" target="_blank"><img src="images/images15.jpg" width="200px"></a>
+                </th>
+            </tr>
+
+            <tr>
+                <th>
+                    <a href="images/images16.jpg" target="_blank"><img src="images/images16.jpg" width="200px"></a>
+                </th>
+                <th>
+                    <a href="images/images17.jpg" target="_blank"><img src="images/images17.jpg" width="200px"></a>
+                </th>
+                <th>
+                    <a href="images/images18.jpg" target="_blank"><img src="images/images18.jpg" width="200px"></a>
+                </th>
+                <th>
+                    <a href="images/images19.jpg" target="_blank"><img src="images/images19.jpg" width="200px"></a>
+                </th>
+                <th>
+                    <a href="images/images20.jpg" target="_blank"><img src="images/images20.jpg" width="200px"></a>
+                </th>
+            </tr>
+  
+        </table>
+
+        <br>
+
+        <table class="center">
+            <tr>
+                <th>
+                    <video width="220" height="220" controls>
+                        <source src="videos/videos1.MP4" type="audio/mp4">
+                        <source src="videos/videos1.MP4" type="audio/opp">
+                    </video>
+                </th>
+                <th>
+                    <video width="220" height="220" controls>
+                        <source src="videos/videos2.MP4" type="audio/mp4">
+                        <source src="videos/videos2.MP4" type="audio/opp">
+                    </video>
+                </th>
+                <th>
+                    <video width="220" height="220" controls>
+                        <source src="videos/videos3.MP4" type="audio/mp4">
+                        <source src="videos/videos3.MP4" type="audio/opp">
+                    </video>
+                </th>
+                <th>
+                    <video width="220" height="220" controls>
+                        <source src="videos/videos4.MP4" type="audio/mp4">
+                        <source src="videos/videos4.MP4" type="audio/opp">
+                    </video>
+                </th>
+                <th>
+                    <video width="220" height="220" controls>
+                        <source src="videos/videos5.MP4" type="audio/mp4">
+                        <source src="videos/videos5.MP4" type="audio/opp">
+                    </video>
+                </th>
+            </tr>
+        </table>
+
+        <table class="center">
+            <tr>
+                <td>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/aWzlQ2N6qqg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </td>
+            </tr>
+        </table>
+
+</html>

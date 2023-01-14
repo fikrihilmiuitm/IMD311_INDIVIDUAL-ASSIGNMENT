@@ -1,0 +1,226 @@
+<html>
+    <head>
+
+        <link rel="stylesheet" href="css/style.css">
+
+        <a href="index.html">HOME</a>
+        <a href="biodata.html">BIODATA</a>
+        <a href="education.html">EDUCATION</a>
+        <a href="gallery.html">GALLERY</a>
+        <a href="skill.html">SKILLS</a>
+        <a href="contact.html">CONTACT</a>
+        
+        <title>EDUCATION</title>
+            
+    </head>
+
+    <style>
+
+        #date
+        {
+          float: right;
+          color: rgb(0, 0, 0);
+          font-size: 20px;
+          border:3px solid #000000;
+          padding:10px;
+          width:150px;
+          margin-left:1px;
+          background-color: peachpuff;
+        }
+        #time
+        {
+          float: right;
+          margin-right:1px;
+          font-size:20px;
+          color:rgb(0, 0, 0);
+          border:3px solid #000000;
+          padding:10px;
+          width:100px;
+          background-color: papayawhip;
+        }
+  
+      </style>
+  
+        <link rel="stylesheet" type="text/css" href="clock_style.css">
+        <script type="text/javascript">
+          window.onload = setInterval(clock,1000);
+      
+          function clock()
+          {
+            var d = new Date();
+            
+            var date = d.getDate();
+            
+            var month = d.getMonth();
+            var montharr =["Jan","Feb","Mar","April","May","June","July","Aug","Sep","Oct","Nov","Dec"];
+            month=montharr[month];
+            
+            var year = d.getFullYear();
+            
+            var day = d.getDay();
+            var dayarr =["Sun","Mon","Tues","Wed","Thurs","Fri","Sat"];
+            day=dayarr[day];
+            
+            var hour =d.getHours();
+            var min = d.getMinutes();
+            var sec = d.getSeconds();
+          
+            document.getElementById("date").innerHTML=day+" "+date+" "+month+" "+year;
+            document.getElementById("time").innerHTML=hour+":"+min+":"+sec;
+          }
+        </script>
+      
+      <body>
+         <p id="date"></p>
+         <p id="time"></p>
+      </body>
+
+    <h1><center>EDUCATION</center></h1>
+
+    <br>
+
+    <style>     
+        body {
+        background-image: url("images/wallpaper.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+        background-size: cover;
+        }
+        .map
+        {
+            border: 2px solid black;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .education
+        {
+            border: 2px double antiquewhite;
+            border-style: solid;
+            background-color: antiquewhite;
+        }
+        td
+        {
+            padding: 20px;
+            width: 500px;
+        }
+    </style>
+
+    
+    <p>
+        <img src="images/malaysiamap.png" usemap="#image-map" class="map">
+
+        <map name="image-map">
+        <area target="_blank" alt="SK TASIK PUTERI 2" title="SK TASIK PUTERI 2" href="https://www.instagram.com/sasteri_rawang/?hl=en" coords="151,378,276,438" shape="rect">
+        <area target="_blank" alt="SMK BANDAR TASIK PUTERI" title="SMK BANDAR TASIK PUTERI" href="https://ms-my.facebook.com/smkbtprasmi/" coords="209,442,301,441,295,488,261,533,218,501" shape="poly">
+        <area target="_blank" alt="UITM KAMPUS REMBAU " title="UITM KAMPUS REMBAU " href="https://nsembilan.uitm.edu.my/rembau/" coords="343,518,53" shape="circle">
+        </map>
+    </p>
+
+    <br>
+
+    <center>
+
+    <h2><b>MY PRIMARY SCHOOL</b></h2>
+
+    <img src="images/sktp2.jpg" width="300px" height="200px">
+
+    <h3><b>MY SECONDARY SCHOOL</b></h3>
+
+    <img src="images/smkbtp.jpg" width="300px" height="200px">
+
+    <h4><b>MY UNIVERSITY</b></h4>
+
+    <img src="images/uitmrembau.jpg" width="300px" height="300px">
+
+    </center>
+
+    <br>
+    
+    <p text-align="center" style="background-color: bisque; border: 1px solid; font-size: larger;"><b>UJIAN PEPERIKSAAN SEKOLAH RENDAH (UPSR)</b><br></p>
+
+        <table class="education">
+            <tr>
+                <td>
+                    <ul>
+                        <pre>
+        <li>Bahasa Melayu (Pemahaman) = A</li>
+        <li>Bahasa Melayu (Penulisan) = A</li>
+        <li>Bahasa Inggeris = A</li>
+        <li>Matematik = B</li>
+        <li>Sains = B</li>
+                        </pre>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+
+
+    <p style="background-color:palegoldenrod; border: 1px solid; font-size: larger;"><b>PENTAKSIRAN TINGKATAN 3 (PT3)</b></p>
+    
+        <table class="education">
+            <tr>
+                <td>
+                    <ol>
+                        <pre>
+                            <li>Bahasa Melayu Ujian Bertulis = A</li>
+                            <li>Bahasa Melayu Lisan = A</li>
+                            <li>Bahasa Inggeris Ujian Bertulis = A</li>
+                            <li>Bahasa Inggeris Lisan = A</li>
+                            <li>Mathematic = C</li>
+                            <li>Science = A</li>
+                            <li>Sejarah = B</li>
+                            <li>Geografi = B</li>
+                            <li>Pendidikan Islam = A</li>
+                            <li>Kemahiran Hidup Bersepadu (Kemahiran Teknikal) = C</li>
+                        </pre>
+                    </ol>
+                </td>
+            </tr>
+        </table>
+
+
+    <p style="background-color:pink; border: 1px solid; font-size: larger;"><b>SIJIL PELAJARAN MALAYSIA (SPM)</b></p>
+
+    <table class="education">
+        <tr>
+            <td>
+                <ol>
+                    <pre>
+                        <li>Bahasa Melayu Ujian Bertulis = A</li>
+                        <li>Bahasa Melayu Lisan = A</li>
+                        <li>Bahasa Inggeris Ujian Bertulis = A</li>
+                        <li>Bahasa Inggeris Lisan = A</li>
+                        <li>Mathematic = C</li>
+                        <li>Science = A</li>
+                        <li>Sejarah = B</li>
+                        <li>Geografi = B</li>
+                        <li>Pendidikan Islam = A</li>
+                        <li>Kemahiran Hidup Bersepadu (Kemahiran Teknikal) = C</li>
+                    </pre>
+
+                </ol>
+            </td>
+        </tr>
+    </table>
+
+    <p style="background-color:palevioletred; border: 1px solid; font-size: larger; "><b>DIPLOMA IN INFORMATION MANAGEMENT (IM110)</b></p>
+    
+    <table class="education">
+        <tr>
+            <td>
+                <ul>
+                    <pre>
+                        <big><b>CGPA</b></big>
+
+                        <li>SEMESTER 1 = 3.61</li>
+                        <li>SEMESTER 2 = 3.63</li>
+                        <li>SEMESTER 3 = 3.67</li>
+                        <li>SEMESTER 4 = 3.64</li>
+                    </pre>
+                </ul>
+            </td>
+        </tr>
+    </table>
+
+</html>
